@@ -49,37 +49,40 @@
 	</config-file>  
         
 	<config-file target="*-Info.plist" parent="NSCameraUsageDescription">
-		<string>Access to your camera is required for capturing a picture to upload for Claim Submission, Profile Picture</string>
+		<string>O acesso à sua câmera é necessário para capturar uma foto para enviar no caso de participação de sinistro e para a foto do perfil</string>
 	</config-file>
 	    
     	<config-file target="*-Info.plist" parent="NSLocationAlwaysAndWhenInUseUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
+		<string>É necessário acesso à sua localização para exibir agências e oficinas</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
+		<string>É necessário acesso à sua localização para exibir agências e oficinas</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSLocationUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
+		<string>É necessário acesso à sua localização para exibir agências e oficinas</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSLocationWhenInUseUsageDescription">
-		<string>Access to your location is required to display nearby branches and providers</string>
+		<string>É necessário acesso à sua localização para exibir agências e oficinas</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSFaceIDUsageDescription">
-		<string>Access to your Face ID is required to securely log you again to the app</string>
+		<string>O acesso ao seu Face ID é necessário para fazer o login seguro novamente no aplicativo</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryUsageDescription">
-		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
+		<string>É necessário acesso à sua biblioteca de fotos para selecionar uma imagem a ser carregada para envio de participação de sinistro e foto do perfil</string>
 	</config-file>
 
 	<config-file target="*-Info.plist" parent="NSPhotoLibraryAddUsageDescription">
-		<string>Access to your photo library is required for selecting a picture to upload for Claim Submission and Profile Picture</string>
+		<string>É necessário acesso à sua biblioteca de fotos para selecionar uma imagem a ser carregada para envio de reivindicação e foto do perfil</string>
 	</config-file> 
         
+	<config-file platform="ios" parent="CFBundleDevelopmentRegion" overwrite="true">
+		<string>Portuguese</string>
+	</config-file>
         
     </platform>
     
