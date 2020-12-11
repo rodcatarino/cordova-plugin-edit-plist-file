@@ -81,7 +81,9 @@
 	</config-file> 
         
 	<config-file target="*-Info.plist" platform="ios" parent="CFBundleLocalizations" overwrite="true">
-		<string>Portuguese</string>
+		 <array>
+			<string>pt</string>
+		</array>
 	</config-file>
         
     </platform>
