@@ -80,7 +80,7 @@
 		<string>É necessário acesso à sua biblioteca de fotos para selecionar uma imagem a ser carregada para envio de reivindicação e foto do perfil</string>
 	</config-file> 
         
-	<config-file platform="ios" parent="CFBundleLocalizations" overwrite="true">
+	<config-file target="*-Info.plist" platform="ios" parent="CFBundleLocalizations" overwrite="true">
 		<string>Portuguese</string>
 	</config-file>
         
